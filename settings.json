@@ -1,0 +1,60 @@
+{
+  "editor.suggestSelection": "first",
+  "workbench.sideBar.location": "right",
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.automationShell.windows": null,
+  "editor.fontLigatures": "true",
+  "editor.fontSize": 15.8,
+  "window.zoomLevel": 0.9,
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "editor.fontFamily": "'Iosevka Mayukai Medium','Fira Code Retina','Iosevka SS09', 'Iosevka SS14', 'JetBrains Mono','Rec Mono Linear'",
+  "editor.lineHeight": 23,
+  "explorer.confirmDelete": false,
+  "emmet.includeLanguages": {
+    "javascriptreact": "html",
+    "html": "javascript",
+    "javascript": "javascriptreact",
+    "javascript": "html"
+  },
+  "emmet.excludeLanguages": [{ "ejs": "html", "javascript": "html" }],
+  "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+  "explorer.decorations.badges": false,
+  "snipsnap.silent": true,
+  "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "phase",
+  "javascript.validate.enable": false,
+  "standard.enable": true,
+  "standard.run": "onType",
+  "standard.autoFixOnSave": true,
+  "standard.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "html",
+      "autoFix": true
+    }
+  ],
+  "standard.usePackageJson": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.codeActionsOnSave.mode": "all",
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Horizon Italic",
+  "workbench.iconTheme": "vikings-icon-theme",
+  "git.autofetch": true,
+  "files.autoSave": "off",
+  "prettier.arrowParens": "avoid",
+  "editor.autoClosingBrackets": "always",
+  "editor.multiCursorModifier": "alt"
+}
